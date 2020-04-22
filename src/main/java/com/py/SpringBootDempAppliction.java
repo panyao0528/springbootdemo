@@ -4,6 +4,8 @@ package com.py;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import javax.sql.DataSource;
+
 /**
  * @author pangy
  * @version 1.0
@@ -11,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class SpringBootDempAppliction {
+
     public static void main(String[] args) {
         SpringApplication.run(SpringBootDempAppliction.class, args);
     }
